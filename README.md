@@ -1,10 +1,13 @@
 # ESM-CJS interop test
 
+This is a fork of [interop-test](https://github.com/sokra/interop-test) by [sokra](https://github.com/sokra), with [Rspack](by-tool#rspack) added to the tested tools.
+
 - [Test Cases](fixtures)
 - [Results](by-tool)
   - [Node.js](by-tool#nodejs)
   - [Babel](by-tool#babel)
   - [Webpack](by-tool#webpack)
+  - [Rspack](by-tool#rspack)
   - [Rollup.js](by-tool#rollup)
   - [Parcel](by-tool#parcel)
   - [esbuild](by-tool#esbuild)
@@ -24,3 +27,5 @@
   - [Babel <-> Node.js (`.mjs`)](diffs#babel---nodejs-mjs)
   - [Webpack `.mjs` <-> `.js`](diffs#babel-mjs---js)
   - [Babel `.mjs` <-> `.js`](diffs#webpack-mjs---js)
+  - [Rspack <-> Webpack (`.mjs`)](diffs#rspack---webpack-mjs)
+  - [Rspack <-> Webpack (`.js`)](diffs#rspack---webpack-js)
