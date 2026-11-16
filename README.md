@@ -29,3 +29,24 @@ This is a fork of [interop-test](https://github.com/sokra/interop-test) by [sokr
   - [Babel `.mjs` <-> `.js`](diffs#webpack-mjs---js)
   - [Rspack <-> Webpack (`.mjs`)](diffs#rspack---webpack-mjs)
   - [Rspack <-> Webpack (`.js`)](diffs#rspack---webpack-js)
+
+## Versions and environment
+
+All results are generated locally with the latest version of each tool at the time of the run.
+
+<!-- versions -->
+
+| Tool         | Version                                                                                                                                   | Node.js | OS                  | Tested on  |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------- | ------- | ------------------- | ---------- |
+| babel        | `@babel/cli@8.1.0`<br>`@babel/core@8.1.2`<br>`@babel/plugin-transform-modules-commonjs@8.1.2`<br>`babel-plugin-dynamic-import-node@2.3.3` | 26.13.1 | Darwin 27.0.0 arm64 | 2026-11-16 |
+| babel-js     | `@babel/cli@8.1.0`<br>`@babel/core@8.1.2`<br>`@babel/plugin-transform-modules-commonjs@8.1.2`<br>`babel-plugin-dynamic-import-node@2.3.3` | 26.13.1 | Darwin 27.0.0 arm64 | 2026-11-16 |
+| esbuild      | `esbuild@0.28.2`                                                                                                                          | 26.13.1 | Darwin 27.0.0 arm64 | 2026-11-16 |
+| node         | -                                                                                                                                         | 26.13.1 | Darwin 27.0.0 arm64 | 2026-11-16 |
+| parcel       | `@parcel/config-default@2.16.4`<br>`@parcel/core@2.16.4`                                                                                  | 26.13.1 | Darwin 27.0.0 arm64 | 2026-11-16 |
+| rollup       | `@rollup/plugin-commonjs@29.0.3`<br>`rollup@4.68.3`                                                                                       | 26.13.1 | Darwin 27.0.0 arm64 | 2026-11-16 |
+| rspack       | `@rspack/core@2.3.2`                                                                                                                      | 26.13.1 | Darwin 27.0.0 arm64 | 2026-11-16 |
+| rspack-js    | `@rspack/core@2.3.2`                                                                                                                      | 26.13.1 | Darwin 27.0.0 arm64 | 2026-11-16 |
+| webpack      | `webpack@5.112.2`                                                                                                                         | 26.13.1 | Darwin 27.0.0 arm64 | 2026-11-16 |
+| webpack-js   | `webpack@5.112.2`                                                                                                                         | 26.13.1 | Darwin 27.0.0 arm64 | 2026-11-16 |
+| webpack4     | `webpack@4.47.0`                                                                                                                          | 26.13.1 | Darwin 27.0.0 arm64 | 2026-11-16 |
+| webpack4-mjs | `webpack@4.47.0`                                                                                                                          | 26.13.1 | Darwin 27.0.0 arm64 | 2026-11-16 |
